@@ -120,7 +120,7 @@ export default function Home() {
             <nav className="navbar animate-in">
                 <div className="brand">
                     <div className="brand-icon"><Icons.Lock /></div>
-                    <span>Pastebin </span>
+                    <span>Pastebin</span>
                 </div>
             </nav>
 
@@ -318,7 +318,7 @@ export default function Home() {
                                 <Icons.External /> Open Link
                             </a>
                             <button onClick={() => setResult(null)} className="btn btn-secondary" style={{ justifyContent: 'center', height: '50px' }}>
-                                Create New Paste
+                                Back to home
                             </button>
                         </div>
                     </div>
